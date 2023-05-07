@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+}
+
+.crumb {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container_header {
+  display: flex;
+  padding: 0px;
+  margin: 10px;
+}
+
+.left_header,
+.right_header {
+  display: flex;
+}
+
+.right_header {
+  margin-left: auto;
+  /*右寄せ*/
+}
+
+.search_word {
+  height: 3rem;
+  width: 30rem;
+  margin: 1rem;
+  border-radius: 50px;
+  border: solid 0.3px lightgray;
+}
+
+.search_word:hover {
+  box-shadow: 2px 2px 8px lightgray;
+}
+
+#table {
+  margin: auto;
+  text-align: center;
+  margin: 1rem;
+}
+
+.search_button {
+  height: 35px;
+  margin: 5px;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.search_button:hover {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
